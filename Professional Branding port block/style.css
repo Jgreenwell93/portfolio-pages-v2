@@ -115,65 +115,29 @@ html {
 /* background images */
 
 
-/* corp lifestyle*/
-#corporate-lifestyle::before {
+/* Corporate & Executive Branding*/
+#Corporate-Executive::before {
     background-image: url('assets/images/corplife1.webp');
 }
 
-#corporate-lifestyle::after {
+#Corporate-Executive::after {
     background-image: url('assets/images/corplifehover.webp');
 }
 
-/* products */
-#products::before {
-    background-image: url('assets/images/products1.webp');
-}
-
-#products::after {
-    background-image: url('assets/images/productshover.webp');
-}
-
-/* headshots */
-#headshots::before {
-    background-image: url('assets/images/headshots1.webp');
-}
-
-#headshots::after {
-    background-image: url('assets/images/headshotshover.webp');
-}
-
-/* modeling */
-#modeling::before {
-    background-image: url('assets/images/modeling1.webp');
-}
-
-#modeling::after {
-    background-image: url('assets/images/modelinghover.webp');
-}
-
-/* fitness */
-#fitness::before {
-    background-image: url('assets/images/fitness1.webp');
-}
-
-#fitness::after {
-    background-image: url('assets/images/fitnesshover.webp');
-}
-
-/* editorial */
-#editorial::before {
+/* Business Owners & Entrepreneurs */
+#Business-Entrepreneurs::before {
     background-image: url('assets/images/editorial1.webp');
 }
 
-#editorial::after {
+#Business-Entrepreneurs::after {
     background-image: url('assets/images/editorialhover.webp');
 }
 
-/* birthday */
-#birthday::before {
-    background-image: url('assets/images/birthday1.webp');
+/* Professional Headshots*/
+#Professional-Headshots::before {
+    background-image: url('assets/images/headshots1.webp');
 }
 
-#birthday::after {
-    background-image: url('assets/images/birthdayhover.webp');
+#Professional-Headshots::after {
+    background-image: url('assets/images/headshotshover.webp');
 }
