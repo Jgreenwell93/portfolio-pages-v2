@@ -1,38 +1,17 @@
-<div id="card-stage">
-    <div class="card-row">
-        <div class="port-card" id="corporate-lifestyle">
-            <a href="https://www.photobymesh.com/commercial-photographer" class="card-text-link" target="_top">CORPORATE LIFESTYLE</a>
+ <div id="card-stage">
+        <div class="card-row">
+            <div class="port-card" id="Professional-Branding">
+                <a href="#" class="card-text-link">Professional Branding</a>
+            </div>
+            <div class="port-card" id="Personal-Branding">
+                <a href="#" class="card-text-link">Personal Branding</a>
+            </div>
+            <div class="port-card" id="Portrait-Sessions">
+                <a href="#" class="card-text-link">Portrait Sessions</a>
+            </div>
         </div>
-        <div class="port-card" id="products">
-            <a href="https://www.photobymesh.com/products-photography" class="card-text-link" target="_top">PRODUCTS</a>
-        </div>
-    </div>
-    <div class="card-row">
-        <div class="port-card" id="headshots">
-            <a href="https://www.photobymesh.com/professional-headshots" class="card-text-link" target="_top">HEADSHOTS</a>
-        </div>
-        <div class="port-card" id="modeling">
-            <a href="https://www.photobymesh.com/modeling-photography" class="card-text-link" target="_top">MODELING</a>
-        </div>
-    </div>
-    <div class="card-row">
-        <div class="port-card" id="fitness">
-            <a href="https://www.photobymesh.com/fitness-photography" class="card-text-link" target="_top">FITNESS</a>
-        </div>
-        <div class="port-card" id="editorial">
-            <a href="https://www.photobymesh.com/editorial-photography" class="card-text-link" target="_top">
-                BRANDING : <br>
-                LIFESTYLE : <br>
-                EDITORIAL</a>
-        </div>
-    </div>
-    <div class="card-row">
-        <div class="port-card" id="birthday">
-            <a href="https://www.photobymesh.com/birthday-photography" class="card-text-link" target="_top">BIRTHDAY</a>
-        </div>
-    </div>
 
-</div>
+    </div>
 
 <style>
     @font-face {
@@ -58,9 +37,9 @@
     }
 
     .port-card {
-        /* width: 40vw;
-        height: 53vh; */
-        width: 40%;
+        /* width: 30vw;
+        height: 45vh; */
+        width: 30%;
         height: auto;
         aspect-ratio: 4.8 / 3;
         overflow: hidden;
@@ -83,15 +62,18 @@
         }
     }
 
+    @media screen and (max-width: 957px) {
+
+    .card-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
     @media screen and (max-width: 767px) {
         .port-card {
             width: 100%;
             font-size: 46px;
-        }
-
-        .card-row {
-            flex-direction: column;
-            align-items: center;
         }
     }
 
@@ -138,10 +120,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    /* keeps text centered */
-    #corporate-lifestyle {
         text-align: center;
     }
 
