@@ -114,66 +114,29 @@ html {
 
 /* background images */
 
-
-/* corp lifestyle*/
-#corporate-lifestyle::before {
-    background-image: url('assets/images/corplife1.webp');
-}
-
-#corporate-lifestyle::after {
-    background-image: url('assets/images/corplifehover.webp');
-}
-
-/* products */
-#products::before {
-    background-image: url('assets/images/products1.webp');
-}
-
-#products::after {
-    background-image: url('assets/images/productshover.webp');
-}
-
-/* headshots */
-#headshots::before {
-    background-image: url('assets/images/headshots1.webp');
-}
-
-#headshots::after {
-    background-image: url('assets/images/headshotshover.webp');
-}
-
-/* modeling */
-#modeling::before {
-    background-image: url('assets/images/modeling1.webp');
-}
-
-#modeling::after {
-    background-image: url('assets/images/modelinghover.webp');
-}
-
-/* fitness */
-#fitness::before {
-    background-image: url('assets/images/fitness1.webp');
-}
-
-#fitness::after {
-    background-image: url('assets/images/fitnesshover.webp');
-}
-
-/* editorial */
-#editorial::before {
+/* Lifestyle & Social */
+#Lifestyle-Social::before {
     background-image: url('assets/images/editorial1.webp');
 }
 
-#editorial::after {
+#Lifestyle-Social::after {
     background-image: url('assets/images/editorialhover.webp');
 }
 
-/* birthday */
-#birthday::before {
-    background-image: url('assets/images/birthday1.webp');
+/* Fitness & Wellness */
+#Fitness-Wellness::before {
+    background-image: url('assets/images/fitness1.webp');
 }
 
-#birthday::after {
-    background-image: url('assets/images/birthdayhover.webp');
+#Fitness-Wellness::after {
+    background-image: url('assets/images/fitnesshover.webp');
+}
+
+/* Personal Image */
+#Personal-Image::before {
+    background-image: url('assets/images/modeling1.webp');
+}
+
+#Personal-Image::after {
+    background-image: url('assets/images/modelinghover.webp');
 }
