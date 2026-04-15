@@ -25,8 +25,8 @@ html {
 }
 
 .port-card {
-    width: 40vw;
-    height: 53vh;
+    width: 30vw;
+    height: 45vh;
     /* aspect ratio for use in wix iframe */
     /* width: 40%;
     height: auto;
@@ -50,15 +50,18 @@ html {
     }
 }
 
-@media screen and (max-width: 767px) {
-    .port-card {
-        width: 100%;
-        font-size: 46px;
-    }
+@media screen and (max-width: 957px) {
 
     .card-row {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .port-card {
+        width: 100%;
+        font-size: 46px;
     }
 }
 
@@ -105,76 +108,35 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/* keeps text centered */
-#corporate-lifestyle {
     text-align: center;
 }
-
 
 /* background images */
 
 
-/* corp lifestyle*/
-#corporate-lifestyle::before {
+/* Professional Branding*/
+#Professional-Branding::before {
     background-image: url('assets/images/corplife1.webp');
 }
 
-#corporate-lifestyle::after {
+#Professional-Branding::after {
     background-image: url('assets/images/corplifehover.webp');
 }
 
-/* products */
-#products::before {
-    background-image: url('assets/images/products1.webp');
-}
-
-#products::after {
-    background-image: url('assets/images/productshover.webp');
-}
-
-/* headshots */
-#headshots::before {
-    background-image: url('assets/images/headshots1.webp');
-}
-
-#headshots::after {
-    background-image: url('assets/images/headshotshover.webp');
-}
-
-/* modeling */
-#modeling::before {
-    background-image: url('assets/images/modeling1.webp');
-}
-
-#modeling::after {
-    background-image: url('assets/images/modelinghover.webp');
-}
-
-/* fitness */
-#fitness::before {
+/* Personal Branding */
+#Personal-Branding::before {
     background-image: url('assets/images/fitness1.webp');
 }
 
-#fitness::after {
-    background-image: url('assets/images/fitnesshover.webp');
+#Personal-Branding::after {
+    background-image: url('assets/images/modelinghover.webp');
 }
 
-/* editorial */
-#editorial::before {
-    background-image: url('assets/images/editorial1.webp');
+/* Portrait Sessions */
+#Portrait-Sessions::before {
+    background-image: url('assets/images/headshots1.webp');
 }
 
-#editorial::after {
-    background-image: url('assets/images/editorialhover.webp');
-}
-
-/* birthday */
-#birthday::before {
-    background-image: url('assets/images/birthday1.webp');
-}
-
-#birthday::after {
-    background-image: url('assets/images/birthdayhover.webp');
+#Portrait-Sessions::after {
+    background-image: url('assets/images/headshotshover.webp');
 }
