@@ -1,38 +1,17 @@
-<div id="card-stage">
-    <div class="card-row">
-        <div class="port-card" id="corporate-lifestyle">
-            <a href="https://www.photobymesh.com/commercial-photographer" class="card-text-link" target="_top">CORPORATE LIFESTYLE</a>
+ <div id="card-stage">
+        <div class="card-row">
+            <div class="port-card" id="Professional-Branding">
+                <a href="#" class="card-text-link">Professional Branding</a>
+            </div>
+            <div class="port-card" id="Personal-Branding">
+                <a href="#" class="card-text-link">Personal Branding</a>
+            </div>
+            <div class="port-card" id="Portrait-Sessions">
+                <a href="#" class="card-text-link">Portrait Sessions</a>
+            </div>
         </div>
-        <div class="port-card" id="products">
-            <a href="https://www.photobymesh.com/products-photography" class="card-text-link" target="_top">PRODUCTS</a>
-        </div>
-    </div>
-    <div class="card-row">
-        <div class="port-card" id="headshots">
-            <a href="https://www.photobymesh.com/professional-headshots" class="card-text-link" target="_top">HEADSHOTS</a>
-        </div>
-        <div class="port-card" id="modeling">
-            <a href="https://www.photobymesh.com/modeling-photography" class="card-text-link" target="_top">MODELING</a>
-        </div>
-    </div>
-    <div class="card-row">
-        <div class="port-card" id="fitness">
-            <a href="https://www.photobymesh.com/fitness-photography" class="card-text-link" target="_top">FITNESS</a>
-        </div>
-        <div class="port-card" id="editorial">
-            <a href="https://www.photobymesh.com/editorial-photography" class="card-text-link" target="_top">
-                BRANDING : <br>
-                LIFESTYLE : <br>
-                EDITORIAL</a>
-        </div>
-    </div>
-    <div class="card-row">
-        <div class="port-card" id="birthday">
-            <a href="https://www.photobymesh.com/birthday-photography" class="card-text-link" target="_top">BIRTHDAY</a>
-        </div>
-    </div>
 
-</div>
+    </div>
 
 <style>
     @font-face {
@@ -58,9 +37,9 @@
     }
 
     .port-card {
-        /* width: 40vw;
-        height: 53vh; */
-        width: 40%;
+        /* width: 30vw;
+        height: 45vh; */
+        width: 30%;
         height: auto;
         aspect-ratio: 4.8 / 3;
         overflow: hidden;
@@ -83,15 +62,18 @@
         }
     }
 
+    @media screen and (max-width: 957px) {
+
+    .card-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
     @media screen and (max-width: 767px) {
         .port-card {
             width: 100%;
             font-size: 46px;
-        }
-
-        .card-row {
-            flex-direction: column;
-            align-items: center;
         }
     }
 
@@ -138,10 +120,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    /* keeps text centered */
-    #corporate-lifestyle {
         text-align: center;
     }
 
@@ -149,66 +127,30 @@
     /* background images */
 
 
-    /* corp lifestyle*/
-    #corporate-lifestyle::before {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_60aece77568840c0a43243a370bfd4c3~mv2.webp');
-    }
+    /* Professional Branding*/
+#Professional-Branding::before {
+    background-image: url('https://static.wixstatic.com/media/50f8f5_60aece77568840c0a43243a370bfd4c3~mv2.webp');
+}
 
-    #corporate-lifestyle::after {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_f4b261d257784c888c9808f04de2f55f~mv2.webp');
-    }
+#Professional-Branding::after {
+    background-image: url('https://static.wixstatic.com/media/50f8f5_f4b261d257784c888c9808f04de2f55f~mv2.webp');
+}
 
-    /* products */
-    #products::before {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_f81fa8f586774f01b659fd55a97caee6~mv2.webp');
-    }
+/* Personal Branding */
+#Personal-Branding::before {
+    background-image: url('https://static.wixstatic.com/media/50f8f5_aa1214d996cc4a8d8688ecba756f4bce~mv2.webp');
+}
 
-    #products::after {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_8cdcfb2aeb8b42ea80d5fb7bf0fcb2f1~mv2.webp');
-    }
+#Personal-Branding::after {
+    background-image: url('https://static.wixstatic.com/media/50f8f5_aa0c129f5b2145f09c532600bca44f51~mv2.webp');
+}
 
-    /* headshots */
-    #headshots::before {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_7879a6e28cdc4b3c934668b82e254fb2~mv2.webp');
-    }
+/* Portrait Sessions */
+#Portrait-Sessions::before {
+    background-image: url('https://static.wixstatic.com/media/50f8f5_7879a6e28cdc4b3c934668b82e254fb2~mv2.webp');
+}
 
-    #headshots::after {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_8f44402b2a2043deb5fe9f1ba907fe37~mv2.webp');
-    }
-
-    /* modeling */
-    #modeling::before {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_97af9bdb2fe14660b4c102161b81fcf4~mv2.webp');
-    }
-
-    #modeling::after {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_aa0c129f5b2145f09c532600bca44f51~mv2.webp');
-    }
-
-    /* fitness */
-    #fitness::before {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_aa1214d996cc4a8d8688ecba756f4bce~mv2.webp');
-    }
-
-    #fitness::after {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_db4815c3c20f444eadf0967d51455eb5~mv2.webp');
-    }
-
-    /* editorial */
-    #editorial::before {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_8075f7e45de3417d8c681161b40c0248~mv2.webp');
-    }
-
-    #editorial::after {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_4420cbad57734af1915283770380ee1b~mv2.webp');
-    }
-
-    /* birthday */
-    #birthday::before {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_1ab97f623e374d80be6407507eedc7e7~mv2.webp');
-    }
-
-    #birthday::after {
-        background-image: url('https://static.wixstatic.com/media/50f8f5_3da4a34ed4124b74ad9575a661b6dc37~mv2.webp');
-    }
+#Portrait-Sessions::after {
+    background-image: url('https://static.wixstatic.com/media/50f8f5_8f44402b2a2043deb5fe9f1ba907fe37~mv2.webp');
+}
 </style>
