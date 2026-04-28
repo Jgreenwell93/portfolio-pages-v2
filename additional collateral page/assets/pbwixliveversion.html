@@ -1,0 +1,121 @@
+  <div id="card-stage">
+        <div class="card-row">
+            <div class="port-card" id="Events-collat">
+                <a href="https://50f8f5cb-2f35-4487-baaa-53c34f52b4ba.usrfiles.com/ugd/50f8f5_36a1978d925142d1bca2748c99b6ca46.pdf" class="card-text-link">Events</a>
+            </div>
+            <div class="port-card" id="Fitness-collat">
+                <a href="https://50f8f5cb-2f35-4487-baaa-53c34f52b4ba.usrfiles.com/ugd/50f8f5_f67e6d3dce454fa38dbacaffa5324f7b.pdf" class="card-text-link">Fitness</a>
+            </div>
+            <div class="port-card" id="Birthdays-collat">
+                <a href="https://50f8f5cb-2f35-4487-baaa-53c34f52b4ba.usrfiles.com/ugd/50f8f5_4247ff7d561f4a2faa286046a23087d3.pdf" class="card-text-link">Birthdays</a>
+            </div>
+            <div class="port-card" id="Headshots-collat">
+                <a href="https://50f8f5cb-2f35-4487-baaa-53c34f52b4ba.usrfiles.com/ugd/50f8f5_0b59db085f5c4305bd050d4d9e7774ca.pdf" class="card-text-link">Headshots</a>
+            </div>
+        </div>
+    </div>
+
+<style>
+    @font-face {
+        font-family: RalewayImport;
+        src: url(https://static.wixstatic.com/ufonts/59f25f_2fa8f0db51b643ba8954f3118a83d0a9/woff2/file.woff2);
+    }
+
+    #card-stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.port-card {
+    /* width: 30vw;
+    height: 45vh; */
+    width: 30%;
+    height: auto;
+    aspect-ratio: 4.8 / 3;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .port-card {
+        width: 47.5%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .port-card {
+        width: 100%;
+        font-size: 46px;
+    }
+}
+
+/* ensure text appears above the images */
+.port-card .card-text-link {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-family: RalewayImport;
+    font-weight: 300;
+    /* makes sure link is full card and text stays in center */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* background images */
+
+/* Events */
+#Events-collat {
+    background-image: url('https://static.wixstatic.com/media/50f8f5_51cb11d7e7f84d428e387bd6ca520d10~mv2.jpg');
+}
+
+
+/* Fitness */
+#Fitness-collat {
+    background-image: url('https://static.wixstatic.com/media/50f8f5_7f241fcafc784e6a80e37ffe0d0394b1~mv2.jpg');
+}
+
+
+/* Birthdays */
+#Birthdays-collat {
+    background-image: url('https://static.wixstatic.com/media/50f8f5_ca55707bc1ff450c85a13fd1ca258d5a~mv2.jpg');
+}
+
+/* Headshots */
+#Headshots-collat {
+    background-image: url('https://static.wixstatic.com/media/50f8f5_bbc3b67f44f342848e41e78471c2a8eb~mv2.jpg');
+}
+
+
+</style>
